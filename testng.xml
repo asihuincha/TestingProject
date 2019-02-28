@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login" >
+   <listeners>
+        <listener class-name="utils.listeners.TestListener"/>
+        <listener class-name="utils.listeners.AnnotationTransformer"/>
+   </listeners>
+   
+  <test name="Test_05">
+        <classes>
+            <class name="died_procesos_generales.pgPerfilTest.PerfilTest"/>
+        </classes> 
+   </test> 
+   
+
+
+<!--  
+ 
+   <test name="Test_02">
+        <classes>
+            <class name="died_procesos_generales.pgForgotPassTest.ForgotPassTest"/>
+        </classes>
+   </test> 
+
+
+  <test name="Test_04">
+        <classes>
+            <class name="died_procesos_generales.pgForgotPassTest.PassEmailTest"/>
+        </classes> 
+   </test> 
+   
+          <test name="Test_01">
+        <classes>
+            <class name="died_procesos_generales.pgLoginTest.LoginTest"/>
+        </classes>
+     </test>
+     
+            <test name="Test_03">
+        <classes>
+            <class name="died_procesos_generales.pgForgotPassTest.PassSmsTest"/>
+        </classes>
+   </test> 
+     
+   
+   -->
+   
+</suite>

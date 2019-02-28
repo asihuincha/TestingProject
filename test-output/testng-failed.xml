@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.listeners.TestListener"/>
+    <listener class-name="utils.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test_05(failed)">
+    <classes>
+      <class name="died_procesos_generales.pgPerfilTest.PerfilTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="PerfilCaseTest03"/>
+          <include name="setup"/>
+          <include name="setupTestData"/>
+        </methods>
+      </class> <!-- died_procesos_generales.pgPerfilTest.PerfilTest -->
+    </classes>
+  </test> <!-- Test_05(failed) -->
+</suite> <!-- Failed suite [Login] -->
